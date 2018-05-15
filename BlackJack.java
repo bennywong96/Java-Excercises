@@ -24,6 +24,19 @@ public class BlackJack {
             System.out.println(x + ", " + y + " Both numbers are the same");
         }
 
+        else if (x<1 || y<1) {
+            System.out.println("Number cannot be below 1");
+        }
+
+        else if (x>21 && y< 21)
+        {
+            System.out.println("First number is too high, Second number is closest to 21");
+        }
+
+        else if (x<21 && y>21)
+        {
+            System.out.println("Second number is too high, First number is closest to 21");
+        }
         else
             System.out.println("Error");
     }

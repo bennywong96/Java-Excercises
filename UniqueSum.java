@@ -14,7 +14,8 @@ public class UniqueSum {
 
 
     }
-    static int uniqueSum (int a, int b, int c){
+
+        private static int uniqueSum(int a, int b, int c){
         int lastSum=0;
         if (a==b && a==c && b==c)
         {
