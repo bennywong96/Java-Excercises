@@ -14,12 +14,12 @@ public class Vehicle {
     public int doors;
     public int cc;
     public Vehicle (int id, String model, String colour, int doors, int cc, int price){
-        this.setId();
-        this.setModel();
-        this.setColour();
-        this.setDoors();
-        this.setCc();
-        this.setPrice();
+        this.id=id;
+        this.model=model;
+        this.colour=colour;
+        this.doors=doors;
+        this.cc=cc;
+        this.price=price;
     }
 
     //set method
@@ -55,6 +55,14 @@ public class Vehicle {
 
     public void typeOfVehicle() {
         System.out.println("This is a Vehicle");
+    }
+    @Override
+    public String toString() {
+        return ("ID:"+this.getId()+
+                "Model:"+ this.getModel() +
+                "Colour:" + this.getColour()+
+                "Doors:" + this.getDoors() +
+                "Engine:" + this.getCc());
     }
 
 

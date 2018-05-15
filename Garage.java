@@ -1,23 +1,32 @@
 import java.util.ArrayList;
 
 public class Garage {
-
-    public void addGarage(Vehicle vhx){
-
-        garage.add(vhx);
-
-    }
-
+    private int id;
+    private int price;
+    private String model;
+    private String colour;
+    private int doors;
+    private int cc;
     ArrayList<Vehicle> garage = new ArrayList<>();
 
-//    garage.add (new Motorcycle);
-//
-//    garage.add(new Motorcycle);
-//
-//    garage.add(new Van);
-//
-//    private Garage (int ID, String model, String colour, int doors, int cc)
+    public void addGarage(Vehicle vehicle){
+        garage.add(vehicle);
+    }
 
+    public void allCosts(){
+        double total=0.0;
+        for (Vehicle test : garage){
+            total+= test.getPrice();
+            System.out.println(test.toString());
+        }
+        System.out.println("Total Costs= " + total);
+    }
+
+//    public void printGarage(){
+//        for (Vehicle element : garage) {
+//            System.out.println(element.toString());
+//        }
+//    }
 
 
 
