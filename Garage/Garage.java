@@ -161,7 +161,7 @@ public class Garage {
             }
         }
         while (newLoop){
-            System.out.println("Do you want to clear the garage?");
+            System.out.println("Do you want to clear the garage? (Y/N)");
             String answer3 = sc.nextLine();
             if (answer3.toLowerCase().equals("y")){
                 removeGarage();
