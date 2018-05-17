@@ -28,8 +28,8 @@ public class Person {
             String answers = sc.nextLine();
            //System.out.println(newUser);
             object.add(new Person(name, age, jobTitle));
-            if (answers.equals("No") || answers.equals("N") || answers.equals("n") ||
-                    answers.equals("no")) {
+            if (answers.toLowerCase().equals("no") || answers.toLowerCase().equals("n")) {
+                //can use .lowerCase() to delete half of the requirements
                 break;
             }
             }
@@ -39,8 +39,7 @@ public class Person {
         while (true){
             System.out.println("Would you like to search for someone? (Y/N)");
             String search = sc.nextLine();
-            if (search.equals("N") || search.equals("No") ||
-                    search.equals("no") || search.equals("n")){
+            if (search.toLowerCase().equals("no") || search.toLowerCase().equals("n")){
                 break;
             }
             else

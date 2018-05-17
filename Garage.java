@@ -22,11 +22,7 @@ public class Garage {
         System.out.println("Total Costs= " + total);
     }
 
-//    public void printGarage(){
-//        for (Vehicle element : garage) {
-//            System.out.println(element.toString());
-//        }
-//    }
+
 
 
 

@@ -23,8 +23,11 @@ public class GarageMain {
 
         c1.typeOfVehicle();
         //c1 is a car
+        c2.typeOfVehicle();
+        boolean newLoop = false;
+        while (newLoop=false){
 
-        //garage1.printGarage();
+        }
         garage1.allCosts();
 
     }
