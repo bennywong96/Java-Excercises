@@ -1,3 +1,4 @@
+package Garage;
 public class Motorcycle extends Vehicle {
 
     //normal or sport

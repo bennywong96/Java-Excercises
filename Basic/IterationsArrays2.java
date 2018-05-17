@@ -1,3 +1,5 @@
+package Basic;
+
 import java.util.Random;
 
 public class IterationsArrays2 {

@@ -1,3 +1,4 @@
+package People;
 import java.util.Scanner;
 
 public class People {

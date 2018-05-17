@@ -1,3 +1,4 @@
+package Basic;
 public class Conditional2 {
     public static void main(String[] args)
     {

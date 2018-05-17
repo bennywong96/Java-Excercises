@@ -1,3 +1,4 @@
+package Garage;
 import java.util.Scanner;
 
 public class GarageMain {

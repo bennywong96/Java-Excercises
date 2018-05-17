@@ -1,3 +1,5 @@
+package PaintWizard;
+
 public class PaintWizardMain {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package PaintWizard;
+
 public class PaintDetails {
     String name;
     int litres;

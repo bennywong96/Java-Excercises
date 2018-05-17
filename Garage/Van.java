@@ -1,3 +1,4 @@
+package Garage;
 public class Van extends Vehicle {
 
     //big or small van

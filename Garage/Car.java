@@ -1,3 +1,5 @@
+package Garage;
+
 public class Car extends Vehicle{
 
     String transmission;

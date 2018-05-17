@@ -1,3 +1,4 @@
+package Garage;
 public class Vehicle {
 
     /*

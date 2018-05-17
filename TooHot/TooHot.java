@@ -1,3 +1,4 @@
+package TooHot;
 import java.util.Scanner;
 
 public class TooHot {
