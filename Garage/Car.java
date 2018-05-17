@@ -1,11 +1,11 @@
 public class Car extends Vehicle{
 
-    private String transmission;
-    private String gears;
+    String transmission;
+    String gears;
     //tranmission type
     //number of gears
 
-    public Car(int id, String model, String colour, int doors, int cc,
+    Car(int id, String model, String colour, int doors, int cc,
                String transmission, String gears, int price){
         super(id, model, colour, doors, cc, price);
         this.transmission=transmission;
