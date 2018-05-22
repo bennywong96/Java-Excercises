@@ -8,6 +8,7 @@ public class PaintWizardMain {
         wizard1.initialPaint();
         //add the 3 paints into an array
         wizard1.printOuts();
+        wizard1.calculatePaint();
         //testing the console input/output
         //new method to do calculations
 
